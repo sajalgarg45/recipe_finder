@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+#header{
+    display: flex;
+}
+#heading{
+    width: 800px;
+    font-size: 22px;
+    margin: 20px;
+}
+#pagelogo{
+    width: 540px;
+    margin: 4px;
+}
+/* nav{
+    background-color: plum;
+    border: 2px solid black;
+} */
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    padding-left: 30px;
+    padding-right: 40px;
+    text-shadow: rgb(70, 41, 10) 2px 10px 20px;
+}
+input[type="search"],input[type="button"]{
+    margin-bottom: 5px;
+    height: 30px;
+    
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(/pictures/1000_F_292253687_tb55bY7mdj7XzRBwVzjSS3q3RCA1ra8a.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+
+}
+
+input{
+    padding: 5px;
+}
+button{
+    padding: 7.5px;
+    background-color: slategray;
+}
+.container {
+    background: rgb(221, 169, 150);
+    width: 250px;
+    height: 260px;
+    border-radius: 8px;
+    border: 1px solid #959494;
+    transition: all 0.40s ease-in-out;
+    margin: 50px;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.card-title {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+.out,
+.in {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 10px;
+    border-top: 1px solid grey;
+}
+
+.container:hover {
+    background: rgb(232, 126, 87);
+    box-shadow: 4px 4px 0 0 #000, 8px 8px 0 0 #0004, 12px 12px 0 0 #0006;
+    width: 300px;
+    height: 400px;
+    font-size: 24px;
+}
+
+.container:active {
+    background: rgb(221, 169, 150);
+}
+
+.card-details {
+    padding: 0.5rem;
+}
+
+.i3{
+    width: 300px;
+    height: 200px;
+    transition: all 0.25s;
+}
+
+.trending{
+    display: flex;
+    justify-content: space-evenly;
+}
+#trending-heading{
+    font-size: 40px;
+    font-style: italic;
+}
+
+a:hover{
+    transition: all 0.35s;
+    font-size: 32px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    background-color: white;
+
+    border-radius: 20px;
+}
